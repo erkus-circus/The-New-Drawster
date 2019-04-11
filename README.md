@@ -1,1 +1,1 @@
-# The-New-Drawster
+# Click [here](./index.html) to go to drawster
