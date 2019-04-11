@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+.canvs {
+    background-color: white;
+    border: 1px solid black;
+    overflow: auto;
+	position: relative;
+    cursor: none;
+	top: 26px;
+}
+
+[class*="col-"]{
+    margin-top: 40px;
+}
+
+.canv {
+	padding: 0;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+}
+
+#top-canvas {
+	mix-blend-mode: difference;
+}
+
+#info-sheet {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#title {
+	font-size: 28px;
+	width: 75%;
+	background-color: inherit;
+	border: none;
+	text-align: center;
+}
+html {
+	font-family: 'Lobster', sans-serif;
+}
+input[type="range"] {
+	cursor: grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+}
+input[type="range"]:active {
+	cursor: grabbing;
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+}
+
+body {
+	margin: 0;
+}
+#settings-modal{
+	z-index: 9999;
+}
